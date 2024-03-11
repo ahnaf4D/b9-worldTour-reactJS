@@ -21,7 +21,6 @@ const Countries = () => {
       .then(res => res.json())
       .then(data => setCountries(data));
   }, [])
-  console.log(visitedFlags);
   return (
     <>
       <h3>{countries.length} Countries Data Loaded</h3>
